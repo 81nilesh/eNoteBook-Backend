@@ -9,6 +9,14 @@ app.get('/', (req, res) => {
     res.send('Nilesh kumar Choudhary')
 })
 
+app.get('/api/login', (req, res) => {
+    res.send('Hello login');
+})
+
+app.get('/api/signup', (req, res) => {
+    res.send('Hello Signup');
+})
+
 app.listen(port, () => {
     console.log(`Example app listening at http://localhost:${port}`)
 })
