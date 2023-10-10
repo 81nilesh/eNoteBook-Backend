@@ -1,0 +1,15 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "this is my backen folder",
+  "main": "index.js",
+  "scripts": {
+    "test": "git repository"
+  },
+  "author": "Nilesh kumar choudhary",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "mongoose": "^7.6.1"
+  }
+}
